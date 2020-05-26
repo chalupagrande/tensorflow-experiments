@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    canvas {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>XOR Visualization</h1>
+  <p>
+    Visualize a feed-forward Machine Learning model learns how to solve the XOR problem. The numbers in each square
+    represent 10x the number input to make the prediction. For example [7,3] means that the model was making a
+    prediction for 0.7 XOR 0.3. White means TRUE and Black means FALSE.
+  </p>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="dist/xor.min.js"></script>
+</body>
+
+</html>
