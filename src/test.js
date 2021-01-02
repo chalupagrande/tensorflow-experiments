@@ -38,7 +38,6 @@ tf.tidy(()=> {
   prediction = model.predict(tf.tensor([[0,1]]))
   console.log(`prediction 3: ${prediction.dataSync()}`)
 
-
   randomizeWeights(model)
 
   prediction = model.predict(tf.tensor([[0,1]]))
@@ -48,9 +47,6 @@ tf.tidy(()=> {
 
   prediction = model.predict(tf.tensor([[0,1]]))
   console.log(`prediction 5: ${prediction.dataSync()}`)
-
-
-
 })
 
 function randomizeWeights(model){

@@ -32,6 +32,6 @@ function reload(done) {
 
 function defaultTask(){
   serve()
-  watch(['./*.html', 'src/*.js', 'src/**/*.js'], series(javascript, reload));
+  watch(['./*.html','pages/*.html', 'src/*.js', 'src/**/*.js'], series(javascript, reload));
 }
 exports.default = defaultTask
